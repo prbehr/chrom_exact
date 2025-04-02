@@ -1,3 +1,8 @@
+# Compute the transit of a spherical planet of a stellar chromosphere which is geometrically thin, based upon Schlawin, Agol, Walkowicz, Covey & Lloyd (2010). 
+# If you use this routines in your research, please cite this paper
+
+# Transcribed to python by P. R. Behr, Apr. 2, 2025
+
 import numpy as np
 
 def ellk(k):
