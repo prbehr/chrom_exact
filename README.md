@@ -1,2 +1,4 @@
 # chrom_exact
-Python transcription of the chrom_exact IDL code by Prof. Eric Agol
+Python transcription of the Chromospheric Transit IDL code by Prof. Eric Agol
+
+Original here: https://faculty.washington.edu/agol/chromosphere.html
