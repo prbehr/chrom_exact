@@ -58,8 +58,7 @@ def ellpic_bulirsch(n,k):
 	d = 1/p
 	e = kc
 
-	converged = False
-	while(not converged):
+	while(True):
 		f = c
 		c = d/p+f
 		g = e/p
@@ -72,7 +71,7 @@ def ellpic_bulirsch(n,k):
 			kc = 2*np.sqrt(e)
 			e = kc*m0
 		else:
-			converged = True
+			break
 
 	return 0.5*np.pi*(c*m0+d)/(m0*(m0+p))
 
